@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fa-regular fa-chess-queen"></i> Queens</a>
+
+        <nav class="navbar">
+            <a href="index.html" >home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">services</a>
+            <a href="review.html">review</a>
+            <a href="blogs.html">blogs</a>
+            <a href="contact.html">contact</a>
+            <a href="shop.html">shop</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn" aria-hidden="true"></div>
+            </div>
+    </header>
+
+    <div class="sub-heading">
+        <h1>contact us</h1>
+    </div>
+
+    <section class="contact">
+
+        <div class="row">
+
+            <form action="https://api.web3forms.com/submit" method="POST" id="bookForm">
+                <h3>book a visit</h3>
+                
+                <div class="inputBox">
+                    <!-- Add the name attribute to the hidden input -->
+                    <input type="hidden" name="access_key" value="919219d6-3edf-42e0-8c4b-98ebd496a646">
+                    
+                    <input type="text" name="name" placeholder="Enter Your Name" class="box" id="nameInput" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" class="box" id="emailInput" required>
+                </div>
+                
+                <div class="inputBox">
+                    <input type="text" name="service" placeholder="Your Service" class="box" id="serviceInput" required>
+                    <input type="tel" name="phone" placeholder="Phone number" class="box" id="phoneInput" required>
+                </div>
+                <textarea name="message" placeholder="Your Message" cols="30" rows="10" id="messageInput" required></textarea>
+                <input type="submit" value="send message" class="btn" onclick="return validateForm()">
+            </form>
+            
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.3015618751933!2d18.458084375587404!3d-33.93337117320188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d08518ba1b9%3A0x1398e85e424f762!2s97%20Durham%20Ave%2C%20Salt%20River%2C%20Cape%20Town%2C%207925!5e0!3m2!1sen!2sza!4v1710328635266!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fa-regular fa-chess-queen"></i> Queen's Salon</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i>078 097 6251</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Queens@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> 97 Durham Avenue, Salt River, Cape Town, 7100</a>
+            </div>
+
+            <div class="box">
+                <h3>Useful Links</h3>
+                
+                <a href="contact.html">location</a>
+                <a href="#">events & promotions</a>
+                <a href="contact.html">contact us</a>
+            </div>
+
+    
+            
+
+                
+                
+                <div class="social-media-icons" style="font-size: 50px;">
+                    
+                    <a href="https://www.facebook.com" target="_blank" class="icon-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    
+                    <a href="https://www.twitter.com" target="_blank" class="icon-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                   
+                    <a href="https://www.instagram.com" target="_blank" class="icon-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                   
+                    <a href="https://www.linkedin.com" target="_blank" class="icon-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span>Dev Geeks</span> | all rights reserved! </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
